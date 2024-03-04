@@ -1,0 +1,109 @@
+
+###############################
+			Linux
+###############################
+
+Linux is an open source Operating system modelled on UNIX, and developed in C language.
+
+######################
+Features of Linux
+######################
+
+-Linux is open-source
+-Significantly reduces the monitory cost
+-Huge base of developers that freely provide support
+-Its reliable as it runs smoothly and no need to reboot it repeatedly.
+-Licensing Freedom to re-use and re-publish the code.
+-Can be Customized want to change you system's look.
+-New enhancements happening and updates come frequently.
+-More secure than other Operating system.
+
+######################################
+Linux where it is used
+######################################
+
+-serves
+-Embedded Systems
+-Supercomputers
+-Android
+-NASA
+-Gaming and Visual effect Servers.
+
+#######################################################
+Components of a Linux OS
+#######################################################
+
+Init Program :
+			The first program, which is responsible for the initialization of the system. Ex.. sysvinit, systemd
+
+Bootloader:	
+			A program which loads the OS when the system is turned on, Ex.. GNU Grub, Syslinux
+		
+Software Libraries:
+			Set of programming code used to develop and design software programs and applications.
+
+Package Management System:
+			A collection of tools for installation, Deletion, ,Configuration and Upgradation of software. Ex.. dpkg, RPM
+			
+Other Interface and Application:
+			Various applications and interfaces are used for various task performed by user.
+		
+
+#####################################################
+Architecture of Linux OS
+#####################################################
+
+#################################
+#	Application				 	#
+# ############################	#
+# #			Shell			 #	#
+# #	######################## #	#
+# #	#		Kernel		   # #	#
+# #	# #################### # #	#
+# #	# #	Hardware	     # # #	#
+# #	# #################### # #	#
+# # ######################## #	#
+# ############################	#
+#################################
+
+
+Kernel:
+	The Kernel is the interface between the applications and the actual process done at the hardware level.
+	Tasks performed by Kernel:
+		-Resource Allocation
+			-> Manage the computer's resources and allow other programs to run and use these resources
+		-Security Management
+			-> Provides security and protection from faults and malicious behavious.
+		-Process Management
+			-> Allows the execution of applications and support them with features such as hardware abstraction.
+		-Device Management
+			-> Maintains a list of avaliable devices and allow drivers to physically access their devices.
+		-Scheduling
+			-> Gives every program specific amount of time and can switch from one process to another.
+		-Memory Management
+			-> Allows processes to safely access the memory according to their requirements.
+			
+Types of Kernel:
+
+- Monolithical Kernel
+- MicroKernel
+- Hybrid Kernel
+
+#########################
+		Shell
+#########################
+
+The shell is the interface which takes user-command and sends it to the kernel
+
+########################################################################################################
+----------------------		commands	-------------------------------
+########################################################################################################
+
+ls
+ls -l	-> detailed view of files
+ls -a	-> to see hiden files
+cd - 	-> used to change previous working dir..
+
+
+
+-
