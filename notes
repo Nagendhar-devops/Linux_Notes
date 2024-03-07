@@ -103,7 +103,89 @@ ls
 ls -l	-> detailed view of files
 ls -a	-> to see hiden files
 cd - 	-> used to change previous working dir..
+ls -p 	-> to create parent dir.../ex..india/tlg/hyd/nizampet/file.txt
+ls -R 	-> to recursive dir 
+2 paths	-> 
+		1. Absolute Path: with / -> giving full path 
+		2. Relative Path: without /
+cat >>file.txt 	-> appending the text into that file.
+cat file.txt -n 	-> to see the content in the file with line numbers.		
+echo "Good Morning" >file.txt 
+date	->to see todays date
+cal 	-> u can see calendar
+tail file.txt 	-> can see last 10 lines
+head file.txt	-> can see top 10 lines
+head -3 file.txt 	-> can see top 3 lines
+df		-> to see storage and complete details
+df -hT 	-> can see file type and also fize
+du -sh <filename>	-> can see size of any file or dir
+
+Methods for creating file:
+-cat
+-touch
+-vi/vim
+
+Graphical Editors
+-gedit
+-nedit
+-pico
+
+Text based Editors
+-vi/vim
+-nano
+
+sh file.sh 	-> execute the shell script file.
+chmod +X file.sh -> giving permission to execute the file
+./file.sh	-> execute the shell script file.
+echo $? 	-> to check script file is executed successfully or not by 0/1 ## 0=success & 1=Failure
+
+grep -> General Regular Expression pattern
+grep <word> filename or file path
+grep -n edureka /etc/passwd -> to see along with the line number.
+grep -c edureka /etc/passwd -> to see how many occourance/repeatedly.
+grep -i edureka /etc/passwd -> to see without case senstive.
+grep -A4 <word> -B4 /etc/passwd -> to see after and before the word.
+
+rpm -qa -> to see all the list of packages.
+
+sed -> for printing the particular line.
+sed -n '5p' /path
+sed -n '5-12p' /path
+
+sed -> also for change the particular word.
+sed -e 's/word1/word2/' filename
+
+[root@ip-172-31-22-138 ~]# sed -e 's/happy/superhappy/' file.txt 
+Hello linux world
+superhappy to learn u
+this is appending text
+
+sed -> also for deleting/removing the blank/empty lines.
+sed -e '/^$/d' filename 
+
+
+awk -> advance command
+
+awk '{print}' /path == cat /path 
+
+awk -F: '{print $1}' /path -> print 1st column
+awk -F: '{print $1, $NF}' /path -> to print 1st and last column [-F == Field, : == delimeter, NF == last column]
+awk -F: '{print $1, "---->", $NF}' /path -> we can also add the any symbols
+
+history -> will get the all history commands
+!command line number == !23 -> again that command is executed.
 
 
 
--
+
+
+ 
+
+
+
+
+
+
+
+
+
